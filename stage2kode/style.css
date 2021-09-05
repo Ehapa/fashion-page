@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-family:'open sans', sans-serif;
+}
+
+.row {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.column {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.custom-font {
+    font-family: 'Playfair Display', serif;
+
+}
+
+.row-image{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.row-image-column{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    color: white;
+    background-image: url(./images/banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: flex-end; 
+    padding: 60px;
+}
+
+
+
+header .banner-heading {
+    font-family: 'playfair display' 'serif';
+    font-size: 6rem;
+    padding: 0 1.6rem;
+    font-style: italic;
+}
+
+header .banner-text {
+    font-size: 0.9rem;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    font-weight: normal;   
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    background-color: #e9b1b3;
+    color:white;
+    padding: 100px 0;
+}
+
+.contenta {
+     font-size: 1.6rem;
+     font-style: italic;
+     margin-bottom: 15px;
+     
+}  
+
+.contenta span {
+    font-size: 5rem;
+    line-height: 0;
+}
+
+.content p {
+    width: 50%;
+    font-size: 1rem;
+}
+
+
+
+.image-gallery .img-container{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-grow: 1;
+    background-repeat: no-repeat;
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.image-gallery .gallery1{
+    background-image: url(./images/gallery-1.jpeg);
+
+}
+
+.image-gallery .gallery2{
+    background-image: url(./images/gallery-2.jpeg);
+
+}
+.image-gallery .gallery3{
+    background-image: url(./images/gallery-3.jpeg);
+
+}
+.image-gallery .gallery4{
+    background-image: url(./images/gallery-4.jpeg);
+
+}
+.image-gallery .gallery5{
+    background-image: url(./images/gallery-5.jpeg);
+}
+.image-gallery .gallery6{
+    background-image: url(./images/gallery-6.jpeg);
+
+}
+
+.coming-soon {
+    background-color:#e9b1b3 ;
+    padding: 50px 0;
+    color:white;
+}
+
+.coming-soon .row-image {
+    justify-content: center;
+}
+
+.coming-soon .coming-soon-heading{
+    font-style: italic;
+    font-family: 'Playfair display' serif;
+    padding-bottom: 24px;
+}
+
+.coming-soon .coming-soon-heading, 
+.coming-soon .coming-soon-text,
+.coming-soon .coming-soon-form{
+   text-align: center;
+}
+
+.coming-soon .coming-soon-text {
+    font-size: 1.3rem;
+    padding-bottom: 32px;
+}
+.coming-soon-form .coming-soon-heading h1 {
+    font-size: 4rem;
+    font-style: italic;
+}
+.input-container .form-btn {
+    background-color: black;
+    color: white;
+}
+
+.coming-soon .coming-soon-form {
+    margin-top: 35px;
+
+}
+.coming-soon-form .input-container {
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+}
+.input-container .text-input, 
+.input-container .form-btn {
+    padding: 12px  30px;
+    border: unset;
+    border-radius: 20px;
+}
+.articl {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 24px;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.art1 {
+    justify-content: center;
+    text-align: justify;
+    font-size: 18px;
+    
+}
+
+.art1 .artart {
+    padding-bottom: 24px;
+    padding-top: 50px;
+    font-size: 1.0rem;
+    font-weight: 20px;
+    
+}
+
+
+.spring {
+    background-color: #e9b1b3;
+}
+.spring h1 {
+    font-style: italic;
+    color: white;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.spring .images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    gap: 5px;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 24px;
+}
+.spring .im img{
+    margin-left: 50%;
+}
+
+.sample {
+    display: flex;
+    flex-direction: row;
+     margin: auto; 
+    gap: 24px;
+    width: 70%; 
+    margin-top: 50px; 
+    margin-bottom: 50px;
+
+}
+
+.product1 {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top:32px ;
+}
+.product2 p {
+    font-size: 30px;
+    font-weight: 40px;
+}
+.product2 h4 {
+    padding: 24px 0 24px 0;
+}
+
+.product2 {
+    padding-top: 50px;
+}
+.product2 .loo {
+    font-size: 20px;
+}
+.sample2 {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    gap: 40px;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+.cart {
+    color: white;
+    background-color: black;
+    padding: 12px 36px; 
+    border-radius: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    border-style: none;
+}
+hr {
+    background-color: #e9b1b3;
+    text-align: center;
+   border-style: none;
+   text-align: center;
+   overflow: none;
+
+}
+
+ .sample2 .flower {
+     display: flex;
+     flex-grow: 1;
+     overflow: hidden;
+     height: 700px;
+     background-size: cover;
+     background-position: center;
+ }
+    
+ .flower{
+     background-image: url(./images/subscribe.jpeg); 
+     width: 45%;
+ }
+.for {
+    width: 55%;
+    padding-right: 30px;
+    margin-top: -30px;
+    text-align: center;
+}
+
+.form-row .one {
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between; 
+    text-align: center;
+
+}
+.flower {
+    width: 40%;
+}
+
+.form2 {
+    /* margin-left: 32px; */
+} 
+.txt-input {
+    padding: 12px 220px 12px  4px;
+    
+
+}
+.submit {
+    color: white;
+    background-color: black;
+    padding: 12px 26px; 
+    border-radius: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+    border-style: none;
+
+}
+
+.social {
+    margin-top: 24px;
+}
+.twitter {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+.Subscribe h1 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-style: italic;
+    font-size: 50px;
+} 
+ .for p {
+    font-size: 0.9rem;
+  width: 55%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
